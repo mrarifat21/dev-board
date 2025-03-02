@@ -45,47 +45,58 @@
           Question-1: What are the different ways to select an element in the
           DOM?
         </p>
-        <p class="text-base text-gray-400 my-2">
-          To select an element in DOM we generally use :
-        </p>
-        <ul>
-          <li>document.getElementById</li>
-          <li>document.getElementsByClassName</li>
-          <li>document.getElementsByName</li>
-          <li>document.getElementsByTagNameNS</li>
-          <li>document.querySelector</li>
-          <li>document.querySelectorAll</li>
-        </ul>
+        <hr class="border-dashed my-3" />
+        <div class="text-base text-gray-400 my-2">
+          <p>To select an element in DOM we generally use :</p>
+
+          <ul>
+            <li>document.getElementById</li>
+            <li>document.getElementsByClassName</li>
+            <li>document.getElementsByName</li>
+            <li>document.getElementsByTagNameNS</li>
+            <li>document.querySelector</li>
+            <li>document.querySelectorAll</li>
+          </ul>
+        </div>
       </div>
       <div class="m-2 p-2 bg-white">
         <p class="text-lg font-bold">
           Question-2: What is the difference between innerHTML, innerText, and
           textContent ?
         </p>
+        <hr class="border-dashed my-3" />
         <p class="text-base text-gray-400 my-2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque rerum
-          facilis illo accusamus, corrupti est! Odit quae nam harum dolor esse
-          rerum at, nostrum iure magni aliquid excepturi laudantium totam!
+          innerHTML: With innerHTML, we can select all the HTML elements with
+          html tags, text, spacing inside the selected element<br />
+          innerText: With innerText, we can select all the text content as
+          output but can't choose HTML tags or CSS style. <br />
+          textContent: Same as innerText. We can get text content as output and
+          also get hidden items.
         </p>
       </div>
       <div class="m-2 p-2 bg-white">
         <p class="text-lg font-bold">
           Question-3: What is event delegation in the DOM?
         </p>
+        <hr class="border-dashed my-3" />
         <p class="text-base text-gray-400 my-2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque rerum
-          facilis illo accusamus, corrupti est! Odit quae nam harum dolor esse
-          rerum at, nostrum iure magni aliquid excepturi laudantium totam!
+          With the help of event delegation, we can handle event easily by using
+          event bubbles. It helps to manage event more dynamically using child &
+          parent element.
         </p>
       </div>
       <div class="m-2 p-2 bg-white">
         <p class="text-lg font-bold">
           Question-4: What is event bubbling in the DOM?
         </p>
+        <hr class="border-dashed my-3" />
         <p class="text-base text-gray-400 my-2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque rerum
-          facilis illo accusamus, corrupti est! Odit quae nam harum dolor esse
-          rerum at, nostrum iure magni aliquid excepturi laudantium totam!
+          Event bubbling means that when an event occurs on an element, it
+          propagates up through its parent elements in the DOM. For example, if
+          you select an element in HTML, you can access its parent element, and
+          subsequently, the parent's parent element, and so on. This process
+          continues like a bubble rising to the surface, allowing parent
+          elements to respond to events that occurred on their child elements.
         </p>
       </div>
       <div class="m-2 p-2 bg-white">
@@ -93,10 +104,13 @@
           Question-5: How do you create, add, and remove elements using
           JavaScript?
         </p>
+        <hr class="border-dashed my-3" />
         <p class="text-base text-gray-400 my-2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque rerum
-          facilis illo accusamus, corrupti est! Odit quae nam harum dolor esse
-          rerum at, nostrum iure magni aliquid excepturi laudantium totam!
+          To create, add and remove elements, we usually use these method:
+          <br />
+          Create elements: document.createElement('TagName'); <br />
+          Add element: parentElement.appendChild('createdElement'); <br />
+          Remove elements: parentElement.removeChild('elementName'); <br />
         </p>
       </div>
     </section>
