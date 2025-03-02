@@ -51,3 +51,4 @@ document.getElementById("clear").addEventListener("click", function () {
 document.getElementById("Discover").addEventListener("click", function () {
   window.location.href = "./pages/blog.html";
 });
+
